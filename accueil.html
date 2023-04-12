@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet CDI</title>
+  <link rel="stylesheet" href="styles/accueil.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="script/accueil.js"></script>
+</head>
+
+<body>
+  <header class="header-container background">
+    <div class="title">
+      <h1>
+        <a href="#" onclick="goUp()">
+          FEMMES & PRÉJUGÉS
+        </a>
+      </h1>
+    </div>
+    <div class="navbar">
+      <div class="links">
+        <ul>
+          <li>
+            <a id="scroll-top-button" class="underline" onclick="goUp()">Accueil</a>
+          </li>
+          <li>
+            <a href="quiz.html" class="underline">Quiz</a>
+          </li>
+          <li>
+            <a href="more.html" class="underline about">A propos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="content" id="content">
+    <div class="left-section text-info">
+      Bien que ces derniers temps, la place de la femme en politique évolue, elle reste inégale face à celle des hommes.
+      En effet, il y avait 10,9% de femmes à l'Assemblée Nationale en 1999, contre 26,9% en 2012. Cela reste inégalement
+      réparti face au nombre d'hommes élevé.
+    </div>
+    <div class="right-section">
+      <img onclick="changeOpacity()" id="picture" src="images/veil.png" alt="">
+      <div class="profile-name">
+        SIMONE VEIL
+      </div>
+    </div>
+    <div class="left-section">
+      <img onclick="changeOpacity2()" id="picture" src="images/taubira.png" alt="">
+      <div class="profile-name">
+        CHRISTIANE TAUBIRA
+      </div>
+    </div>
+    <div class="right-section text-info">
+      Étant donné qu'il y a peu de contraintes législatives, peu de personnes à l'Assemblée Nationale se sont engagées à
+      respecter la réforme constitutionelle de 1999 ou encore des lois viosant à la parité dans la politique. Toutefois,
+      en 2013 est apparue une loi visant à renforcer cette parité pour les élections, que ce soit municipales,
+      intercommunales ou encore départementales : le binôme paritaire est avancé pour les élections départementales.
+    </div>
+    <div class="left-section">
+      <img onclick="changeOpacity3()" id="picture" src="images/halimi.png" alt="">
+      <div class="profile-name">
+        GISÈLE HALIMI
+      </div>
+    </div>
+    <div class="right-section">
+      <img onclick="changeOpacity4()" id="picture" src="images/laguiller.jpg" alt="">
+      <div class="profile-name">
+        ARLETTE LAGUILLER
+      </div>
+    </div>
+    <div class="left-section">
+      <img onclick="changeOpacity5()" id="picture" src="images/giroud.png" alt="">
+      <div class="profile-name">
+        FRANÇOISE GIROUD
+      </div>
+    </div>
+    <div class="right-section">
+      <img onclick="changeOpacity6()" id="picture" src="images/cresson.png" alt="">
+      <div class="profile-name">
+        EDITH CRESSON
+      </div>
+    </div>
+    <div class="left-section">
+      <img onclick="changeOpacity7()" id="picture" src="images/poinso.jpg" alt="">
+      <div class="profile-name">
+        GERMAINE POINSO-CHAPUIS
+      </div>
+    </div>
+    <div class="right-section">
+      <img onclick="changeOpacity8()" id="picture" src="images/royal.png" alt="">
+      <div class="profile-name">
+        SÉGOLÈNE ROYAL
+      </div>
+    </div>
+  </div>
+  <div class="infos">
+    <div id="first-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        SIMONE VEIL
+      </div>
+      <div class="name-description">
+        En 1975, Simone Veil, ministre de la santé, permit l'autorisation du recours à l'IVG (<i>Interruption Volontaire
+          de Grossesse</i>)
+      </div>
+      <div class="name-plus-infos">
+        Tu peux en apprendre plus sur elle par ici:
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315"
+        src="https://www.youtube.com/embed/FbwwEPhrUAE" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div id="second-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        CHRISTIANE TAUBIRA
+      </div>
+      <div class="name-description">
+        Christiane Taubira a été ministre de la justice et a contribué à de nombreuses choses, telles que
+        <strong>l'autorisation du mariage des couples de même sexe.</strong>
+      </div>
+      <div class="name-plus-infos">
+        Tu peux en apprendre plus sur elle par ici:
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315"
+        src="https://www.youtube.com/embed/oM0C6cWDaJM" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div id="troisieme-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        GISÈLE HALIMI
+      </div>
+      <div class="name-description">
+        Gisèle Halimi est une militante. Bien qu'elle n'a pas été élue (sauf entre 1981 et 1984 en tant que députée),
+        elle est qualifiée de femme politique pour son rôle dans l'avancée de certaines lois en faveur de la femme,
+        comme <strong>l'autorisation de l'IVG</strong>, ou encore la <strong>qualification du viol comme étant un
+          crime</strong>.
+      </div>
+      <div class="name-plus-infos">
+        L'épisode de <strong>Brut</strong> sur son parcours :
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315"
+        src="https://www.youtube.com/embed/-kUXd5WuNpo" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div id="quatrieme-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        ARLETTE LAGUILLER
+      </div>
+      <div class="name-description">
+        Arlette Laguiller est la première femme à se présenter aux élections présidentielles suite au décès de Georges
+        Pompidou. Elle n'a pas remporté cette élection (elle a reçu <strong>2,3% des suffrages</strong> à cette
+        élection.). Toutefois, bien que jamais élue, elle a continué de se présenter aux élections présidentielles
+        jusqu'en 2007.
+      </div>
+      <div class="name-plus-infos">
+        Découvre <strong>sa dernière</strong> campagne présidentielle :
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315"
+        src="https://youtube.com/embed/6V1of6MkP8A" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div id="cinquieme-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        FRANÇOISE GIROUD
+      </div>
+      <div class="name-description">
+        Françoise Giroud est connue pour avoir été <strong>secrétaire d'État à la condition féminine</strong>, mais
+        aussi, et surtout pour les <strong>101 mesures</strong> faites grâce à elle pour les femmes.
+      </div>
+      <div class="name-plus-infos">
+        Voici une de ses nombreuses mesures :
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315" allow="autoplay"
+        title="Vidéo ina.fr:  Mesures en faveur des femmes prises par Françoise Giroud en 1975 "
+        src="https://enseignants.lumni.fr/export/player/00000000407" width="100%" height="100%"
+        allowfullscreen></iframe>
+    </div>
+    <div id="sixieme-info" class="info-opacity-1">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        EDITH CRESSON
+      </div>
+      <div class="name-description">
+        Edit Cresson est une socialiste qui a été <strong>première ministre</strong>, ce qui était, et est
+        malheureusement toujours,
+        exceptionnel. Cela n'a pas plus à de nombreuses personnes et elle a abandonné sa fonction quelques temps après.
+        Toutefois, ça ne l'empêchera pas d'avoir marqué l'histoire de la France et d'avoir fait avancer les droits des
+        femmes en politique.
+      </div>
+      <div class="name-plus-infos">
+        Découvre son parcours politique :
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315"
+        src="https://youtube.com/embed/rF5_vHDoAeo" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div id="septieme-info" class="info-opacity-1 derniere-ligne">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        GERMAINE POINSO-CHAPUIS
+      </div>
+      <div class="name-description">
+        Bien que cette femme est souvent oubliée dans les livres d'histoire, elle fût pourtant la <strong>première femme
+          ministre</strong> en France. En effet, elle était ministre de la santé, ce qui a, comme avec Edith Cresson,
+        marqué une <strong>avancée</strong> dans les droits des femmes en politique.
+      </div>
+    </div>
+    <div id="huitieme-info" class="info-opacity-1 derniere-ligne">
+      <div onclick="retourNormal()" class="cross">
+        <img src="images/icons/cross.png" alt="">
+      </div>
+      <div class="name">
+        SÉGOLÈNE ROYAL
+      </div>
+      <div class="name-description">
+        Ségolène Royal a elle aussi marqué l'avancée des droits des femmes en politique en se présentant aux
+        présidentielles de <strong>2007</strong>. Toutefois, elle a surtout été présente en tant que candidate au
+        deuxième scrutin, ce qui fût une première.
+      </div>
+      <div class="name-plus-infos">
+        La vidéo du média Lumni sur sa participation à l'élection présidentielle :
+      </div>
+      <iframe id="youtube-frame-id" class="youtube-frame" width="90%" height="315" allow="autoplay"
+        title="Vidéo ina.fr:  Ségolène Royal, candidate socialiste à l'élection présidentielle "
+        src="https://enseignants.lumni.fr/export/player/00000001087" width="100%" height="100%"
+        allowfullscreen></iframe>
+    </div>
+    <div class="bottom-header" id="bottom-header">
+      PROJET CDI DE ÉLISE, LINA ET MAXIME
+    </div>
+
+</body>
+
+</html>
