@@ -137,8 +137,8 @@ ul li {
   z-index: 1;
 }
 
-.text-info{
-	font-size: 22px;
+.text-info {
+  font-size: 22px;
 }
 
 
@@ -249,6 +249,14 @@ ul li {
 }
 
 @media screen and (max-width:800px) {
+  * {
+    font-size: auto;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
   .content {
     display: grid;
     grid-template-columns: 1fr;
@@ -278,6 +286,11 @@ ul li {
 
   .profile-name {
     font-size: 15px;
+  }
+
+  #padding-text {
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
 }
 
